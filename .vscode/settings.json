@@ -1,0 +1,119 @@
+{
+    // tab 大小为2个空格
+    "editor.tabSize": 2,
+    "editor.fontSize": 14,
+    "files.autoSave": "afterDelay",
+
+    // 100 列后换行
+    "editor.wordWrapColumn": 120,
+
+    // 开启 vscode 文件路径导航
+    "breadcrumbs.enabled": true,
+
+    // prettier 设置语句末尾加分号
+    "prettier.semi": false,
+
+    // prettier 设置强制单引号
+    "prettier.singleQuote": true,
+    // 选择 vue 文件中 template 的格式化工具
+    "vetur.format.defaultFormatter.html": "prettier",
+
+    // 显示 markdown 中英文切换时产生的特殊字符
+    "editor.renderControlCharacters": true,
+
+    // 让函数(名)和后面的括号之间加个空格
+    "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+
+    // 让vue中的js按编辑器自带的ts格式进行格式化
+    // "vetur.format.defaultFormatter.js": "vscode-typescript",
+
+    // vetur 的自定义设置
+    "vetur.format.defaultFormatterOptions": {
+        "prettier": {
+            "singleQuote": true,
+            "semi": false
+        }
+    },
+
+    // Ctrl + Shift + F 快捷键设置（依照vetur格式化代码）
+    "[vue]": {
+        "editor.defaultFormatter": "octref.vetur"
+    },
+    "files.associations": {
+        "*.js": "javascriptreact"
+    },
+    // 使能每一种语言默认格式化规则
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[less]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    /*  prettier的配置 */
+    "prettier.printWidth": 100, // 超过最大值换行
+    "prettier.tabWidth": 4, // 缩进字节数
+    "prettier.useTabs": false, // 缩进不使用tab，使用空格
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.formatOnType": true,
+    // 保存时格式化
+    "editor.formatOnSave": true,
+    "eslint.autoFixOnSave": true, //  启用保存时自动修复,默认只支持.js文件
+    "eslint.validate": ["javascript", "javascriptreact", "html", "vue"],
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+    },
+    // =============eslint fix
+      "vetur.format.defaultFormatter.js": "vscode-typescript",
+      "vetur.format.defaultFormatter.html": "js-beautify-html",
+      "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        {
+          "language": "html",
+          "autoFix": true
+        },
+        {
+          "language": "vue",
+          "autoFix": true
+        }
+      ],
+      // 保存自动修复
+      "eslint.autoFixOnSave": true,
+    //   // jsx自动修复有问题，取消js的format
+    //   "editor.formatOnSave": false,
+    //   // Enable/disable default JavaScript formatter (For Prettier)
+    //   "javascript.format.enable": false,
+    //   "prettier.singleQuote": true,
+    //   // 点击保存时，根据 eslint 规则自定修复，同时集成 prettier 到 eslint 中
+    //   "prettier.eslintIntegration": true,
+    //   "editor.detectIndentation": false,
+    //   "editor.codeActionsOnSave": {
+    //     "source.fixAll.es": true
+    //   },
+    // // ====
+    // "eslint.enable": true, //是否开启vscode的eslint≠≠  = = =≠≠
+    // // "eslint.autoFixOnSave": true, //是否在保    存的时候自动fix eslint
+    // "eslint.options": {
+    //   //指定vscode的eslint所处理的文件的后缀
+    //   "extensions": [".js", ".ts", ".tsx","jsx"],
+    // },
+    // "eslint.validate": [
+    //   //确定校验准则
+    //   "javascript",
+    //   "javascriptreact",
+    //   {
+    //     language: "typescript",
+    //     autoFix: true,
+    //   },
+    //   {
+    //     language: "typescriptreact",
+    //     autoFix: true,
+    //   },
+    // ],
+}
