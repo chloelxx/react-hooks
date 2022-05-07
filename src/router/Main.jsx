@@ -15,6 +15,7 @@ const ErrorBoundayCase4 = lazy(async () => await import('../page/ErrorBoundary/i
 const ErrorBoundayCase5 = lazy(async () => await import('../page/ErrorBoundary/index5'));
 const ErrorBoundayCase6 = lazy(async () => await import('../page/ErrorBoundary/index6'));
 const UseErrorBoundayCase = lazy(async () => await import('../page/UseErrorBoundary/index'));
+const UseMemo = lazy(async () => await import('../page/useMemo/useMemo'));
 const { Header, Footer, Sider, Content } = Layout;
 export const Main = () => {
   return (
@@ -49,7 +50,7 @@ export const Main = () => {
             <Route path="/study/errorbounary3" component={ErrorBoundayCase3} />
             <Route path="/study/errorbounary4" component={ErrorBoundayCase4} />
             <Route path="/study/errorbounary5" component={ErrorBoundayCase5} />
-            <Route path="/study/errorbounary6" component={ErrorBoundayCase6} />
+            <Route path="/study/UseMemo" component={UseMemo} />
             <Route path="/study/useerrorbounary" component={UseErrorBoundayCase} />
           </Switch>
         </Content>

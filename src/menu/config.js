@@ -6,6 +6,7 @@ export const menu = [
       { title: 'main', path: '/study/main', id: 'main', value: 'main' },
       { title: 'useref', path: '/study/useref', id: 'useref', value: 'useref' },
       { title: 'useref2', path: '/study/use/useref2', id: 'useref2', value: 'useref2' },
+      { title: 'useMemo', path: '/study/useMemo', id: 'useMemo', value: 'useMemo' },
     ],
   },
   {

@@ -11,7 +11,7 @@ const rootSubmenuKeys = ['sub1', 'sub2', 'sub4'];
 export const SiderBar = () => {
   // 这个的作用是保留刷新的时候对应的路由所展开选中的菜单
   let key = window.location.href.split('/study/')[1];
-  console.log('重新执行', key);
+  console.log('SiderBar重新执行', key);
   const map = {
     main: 'main',
     useref: 'useref',
