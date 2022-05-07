@@ -1,20 +1,20 @@
 import { Route, Switch } from 'react-router-dom';
 import React, { lazy } from 'react';
-import { SiderBar } from './component/Sider.jsx';
+import { SiderBar } from '../menu/Sider.jsx';
 
 import { Layout } from 'antd';
 import 'antd/dist/antd.css';
-const UseRef2 = lazy(async () => await import('./page/studyUseRef/useRef2'));
-const StudyUseRef = lazy(async () => await import('./page/studyUseRef/index.jsx'));
-const StudyUseRef1 = lazy(async () => await import('./page/studyUseRef/useRef1'));
-const StudyUseContext = lazy(async () => await import('./page/studyUseContext/useContext'));
-const ErrorBoundayCase = lazy(async () => await import('./page/ErrorBoundary/index1'));
-const ErrorBoundayCase2 = lazy(async () => await import('./page/ErrorBoundary/index2'));
-const ErrorBoundayCase3 = lazy(async () => await import('./page/ErrorBoundary/index3'));
-const ErrorBoundayCase4 = lazy(async () => await import('./page/ErrorBoundary/index4'));
-const ErrorBoundayCase5 = lazy(async () => await import('./page/ErrorBoundary/index5'));
-const ErrorBoundayCase6 = lazy(async () => await import('./page/ErrorBoundary/index6'));
-const UseErrorBoundayCase = lazy(async () => await import('./page/UseErrorBoundary/index'));
+const UseRef2 = lazy(async () => await import('../page/studyUseRef/useRef2'));
+const StudyUseRef = lazy(async () => await import('../page/studyUseRef/index.jsx'));
+const StudyUseRef1 = lazy(async () => await import('../page/studyUseRef/useRef1'));
+const StudyUseContext = lazy(async () => await import('../page/studyUseContext/useContext'));
+const ErrorBoundayCase = lazy(async () => await import('../page/ErrorBoundary/index1'));
+const ErrorBoundayCase2 = lazy(async () => await import('../page/ErrorBoundary/index2'));
+const ErrorBoundayCase3 = lazy(async () => await import('../page/ErrorBoundary/index3'));
+const ErrorBoundayCase4 = lazy(async () => await import('../page/ErrorBoundary/index4'));
+const ErrorBoundayCase5 = lazy(async () => await import('../page/ErrorBoundary/index5'));
+const ErrorBoundayCase6 = lazy(async () => await import('../page/ErrorBoundary/index6'));
+const UseErrorBoundayCase = lazy(async () => await import('../page/UseErrorBoundary/index'));
 const { Header, Footer, Sider, Content } = Layout;
 export const Main = () => {
   return (
