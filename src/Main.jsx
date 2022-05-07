@@ -19,14 +19,22 @@ const { Header, Footer, Sider, Content } = Layout;
 export const Main = () => {
   return (
     <Layout>
+<<<<<<< HEAD
       <Header className="site-layout-background" style={{ color: '#fcfcfc' }}>
         React Header
       </Header>
+=======
+      <Header className="site-layout-background">Header</Header>
+>>>>>>> 39b736ad9ebc634b1689b7d736bb8bb5718ed81d
       <Layout>
         <Sider width={256}>
           <SiderBar />
         </Sider>
         <Content
+<<<<<<< HEAD
+=======
+          style={{ padding: 20 }}
+>>>>>>> 39b736ad9ebc634b1689b7d736bb8bb5718ed81d
           className="site-layout-background"
           style={{
             margin: '24px 16px',
