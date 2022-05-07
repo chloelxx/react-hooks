@@ -20,10 +20,7 @@
 })(this, function (exports) {
   // TODO: this is special because it gets imported during build.
   var ReactVersion = '17.0.2';
-<<<<<<< HEAD
   debugger;
-=======
->>>>>>> 39b736ad9ebc634b1689b7d736bb8bb5718ed81d
   // ATTENTION
   // When adding new symbols to this file,
   // Please consider also adding to 'react-devtools-shared/src/backend/ReactSymbols'
@@ -1604,10 +1601,6 @@
     return dispatcher.useContext(Context, unstable_observedBits);
   }
   function useState(initialState) {
-<<<<<<< HEAD
-=======
-    console.log('开发环境==useState', initialState);
->>>>>>> 39b736ad9ebc634b1689b7d736bb8bb5718ed81d
     var dispatcher = resolveDispatcher();
     return dispatcher.useState(initialState);
   }
